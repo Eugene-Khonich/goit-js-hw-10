@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer</title>
     
-    <link rel="stylesheet" href="/vanilla-app-template/assets/styles-7b930e95.css">
+    <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-9808d4ac.js">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/styles-8f5510d3.css">
   </head>
   <body>
     <a href="./index.html">Go to home</a>
     <section class="timer-container">
       <input type="text" id="datetime-picker" />
-      <button type="button" data-start>Start</button>
+      <button type="button" data-start disabled>Start</button>
 
       <div class="timer">
         <div class="field">
@@ -33,5 +35,6 @@
         </div>
       </div>
     </section>
+    
   </body>
 </html>
