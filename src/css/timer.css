@@ -45,17 +45,25 @@ button {
   flex-direction: row;
   gap: 10px;
   border-radius: 8px;
+  border: none;
   padding: 8px 16px;
   width: 75px;
   height: 40px;
-  background: #cfcfcf;
+  background: #4e75ff;
+  color: #fff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #989898;
-  /* &:hover {
-    background: #6c8cff;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: #6c8cff;
     color: #fff;
-  } */
+  }
+  &:disabled {
+    background: #cfcfcf;
+    color: #989898;
+    cursor: auto;
+  }
 }
