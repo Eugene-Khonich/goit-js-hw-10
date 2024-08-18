@@ -1,0 +1,41 @@
+.form {
+  padding-top: 10px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+[name='delay'] {
+  width: 345px;
+  height: 40px;
+  margin-top: 4px;
+  padding-left: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+  &:hover,
+  &:focus {
+    border-color: #000;
+  }
+  &:active {
+    border-color: #4e75ff;
+  }
+}
+fieldset {
+  display: flex;
+  justify-content: space-around;
+  max-width: 360px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  &:hover,
+  &:focus {
+    background: #6c8cff;
+  }
+}
